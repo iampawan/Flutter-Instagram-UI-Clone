@@ -36,7 +36,7 @@ class InstaStories extends StatelessWidget {
                         image: new NetworkImage(
                             "https://pbs.twimg.com/profile_images/916384996092448768/PF1TSFOE_400x400.jpg")),
                   ),
-                  margin: const EdgeInsets.symmetric(horizontal: 12.0),
+                  margin: const EdgeInsets.symmetric(horizontal: 8.0),
                 ),
                 index == 0
                     ? Positioned(
@@ -64,6 +64,7 @@ class InstaStories extends StatelessWidget {
       child: new Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           topText,
           stories,
