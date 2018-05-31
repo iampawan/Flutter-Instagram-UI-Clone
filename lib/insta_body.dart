@@ -8,8 +8,8 @@ class InstaBody extends StatelessWidget {
     return new Column(
       mainAxisAlignment: MainAxisAlignment.start,
       children: <Widget>[
-        Expanded(flex: 3, child: new InstaStories()),
-        Flexible(flex: 11, child: InstaList())
+        Expanded(flex: 1, child: new InstaStories()),
+        Flexible(flex: 4, child: InstaList())
       ],
     );
   }

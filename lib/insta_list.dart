@@ -88,7 +88,10 @@ class InstaList extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                child: Text("Liked by pawankumar, pk and 528,331 others"),
+                child: Text(
+                  "Liked by pawankumar, pk and 528,331 others",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
               ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(16.0, 16.0, 0.0, 8.0),
@@ -111,7 +114,6 @@ class InstaList extends StatelessWidget {
                     ),
                     Expanded(
                       child: new TextField(
-                        
                         decoration: new InputDecoration(
                           border: InputBorder.none,
                           hintText: "Add a comment...",
