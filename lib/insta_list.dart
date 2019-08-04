@@ -68,21 +68,21 @@ class InstaList extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           new Icon(
-                            FontAwesomeIcons.heartO,
+                            FontAwesomeIcons.heart,
                           ),
                           new SizedBox(
                             width: 16.0,
                           ),
                           new Icon(
-                            FontAwesomeIcons.commentO,
+                            FontAwesomeIcons.comment,
                           ),
                           new SizedBox(
                             width: 16.0,
                           ),
-                          new Icon(FontAwesomeIcons.paperPlaneO),
+                          new Icon(FontAwesomeIcons.paperPlane),
                         ],
                       ),
-                      new Icon(FontAwesomeIcons.bookmarkO)
+                      new Icon(FontAwesomeIcons.bookmark)
                     ],
                   ),
                 ),
