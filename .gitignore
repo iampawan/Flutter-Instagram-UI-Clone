@@ -7,3 +7,16 @@
 build/
 
 .flutter-plugins
+Flutter-Instagram-UI-Clone.iml
+pubspec.lock
+.gradle/4.9/fileChanges/last-build.bin
+.gradle/4.9/fileHashes/fileHashes.bin
+.gradle/4.9/fileHashes/fileHashes.lock
+.gradle/vcsWorkingDirs/gc.properties
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/libraries/Flutter_Plugins.xml
+pubspec.lock
