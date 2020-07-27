@@ -2,7 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter_insta_clone/insta_stories.dart';
 
-class InstaList extends StatelessWidget {
+class InstaList extends StatefulWidget {
+  @override
+  _InstaListState createState() => _InstaListState();
+}
+
+class _InstaListState extends State<InstaList> {
+  bool isPressed = false;
+
   @override
   Widget build(BuildContext context) {
     var deviceSize = MediaQuery.of(context).size;
@@ -67,8 +74,16 @@ class InstaList extends StatelessWidget {
                       new Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
-                          new Icon(
-                            FontAwesomeIcons.heart,
+                          new IconButton(
+                            icon: new Icon(isPressed
+                                ? Icons.favorite
+                                : FontAwesomeIcons.heart),
+                            color: isPressed ? Colors.red : Colors.black,
+                            onPressed: () {
+                              setState(() {
+                                isPressed = !isPressed;
+                              });
+                            },
                           ),
                           new SizedBox(
                             width: 16.0,
