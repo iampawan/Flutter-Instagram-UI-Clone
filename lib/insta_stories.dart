@@ -60,7 +60,7 @@ class InstaStories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Container(
-      margin: const EdgeInsets.all(16.0),
+      margin: const EdgeInsets.all(8.0),
       child: new Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.start,
