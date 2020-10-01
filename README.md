@@ -1,4 +1,4 @@
-# flutter_instagram_ui_clone
+# FlutterGram
 
 ### Some Screenshots
 
