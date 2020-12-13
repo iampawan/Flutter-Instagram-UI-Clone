@@ -19,12 +19,13 @@ class InstaHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final double bottomPadding = MediaQuery.of(context).padding.bottom;
     return new Scaffold(
         appBar: topBar,
         body: new InstaBody(),
         bottomNavigationBar: new Container(
           color: Colors.white,
-          height: 50.0,
+          height: 50.0 + bottomPadding,
           alignment: Alignment.center,
           child: new BottomAppBar(
             child: new Row(
